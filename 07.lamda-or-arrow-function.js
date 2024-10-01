@@ -5,7 +5,7 @@
     +   Không có argument
     +   Không có this
     +   Ngắn gọn súc tích
-    +   Không có tính hoisting
+    +   Không có tính hoisting  
  */
 
 const arrowFunc1 = (a, b) => a + b; // Multiple parameters

@@ -4,14 +4,15 @@
  * TRẢ LỜI: 
     +   Method Splice cho phép CHÈN/XÓA item trong mảng
     +   Trả về item bị xóa (nếu có item bị xóa)
-    +   Ảnh hưởng lên mảng sử dụng phương pháp splice
+    +   Ảnh hưởng lên mảng khi sử dụng phương pháp splice
  */
 
 /**
- * arg 1: index của phần tử muốn xóa/chèn
- * arg 2: số lượng phần tử muốn xóa (nếu để 0 thì nghĩa là không xóa mà chèn)
- * 
+ * arg (1)  : index của phần tử muốn xóa/chèn
+ * arg (2)  : số lượng phần tử muốn xóa (nếu để 0 thì nghĩa là không xóa mà chèn)
+ * arg (...): Phần tử muốn chèn
  */
+
 let arr_01 = [1, 2, 3, 4, 5];
 let arr_02 = [1, 2, 3, 4, 5];
 let arr_03 = [1, 2, 3, 4, 5];

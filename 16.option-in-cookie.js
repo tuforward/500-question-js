@@ -8,7 +8,6 @@
  * 
  * BẠN CÓ THỂ THAY ĐỔI HÀNH VI NÀY BẰNG CÁCH SET EXPIRE
  */
-
 document.cookie = "hoVaTen=GiangTruong; expires=Sat, 8 Jun 2019 12:00:00 UTC";
 
 /**
